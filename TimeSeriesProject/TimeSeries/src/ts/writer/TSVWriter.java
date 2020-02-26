@@ -1,0 +1,14 @@
+package ts.writer;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import ts.commons.TimeLine;
+
+public class TSVWriter implements IWriter {
+
+	@Override
+	public void write(ArrayList<TimeLine> t, String filename) throws IOException {
+	}
+
+}
